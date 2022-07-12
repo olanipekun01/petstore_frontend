@@ -100,7 +100,7 @@ header .landing_header_icon i:hover {
 
 
 .drop_down{
-    width: 90px;
+    /* width: 90px; */
     background-color: var(--black);
     color: #fff;
     left: 565px;
@@ -121,10 +121,19 @@ header .landing_header_icon i:hover {
     text-align: center;
     margin-bottom: 20px;
     font-size: 23px;
+    padding: 0px 10px;
 }
 
 .drop_down ul li:hover {
     letter-spacing: .1rem;
+}
+
+.drop_down ul li a {
+    color: #fff;
+}
+
+.drop_down ul li a:hover {
+    color: red;
 }
 
 .product_page_landing_hero {
@@ -289,6 +298,10 @@ header .landing_header_icon i:hover {
     height: 250px;
 }
 
+.third_section .card_div .card figure img:hover {
+    width: 310px;
+}
+
 .third_section .card_div .card .card_wrapper {
     display: block;
     padding-left: 10px;
@@ -297,7 +310,8 @@ header .landing_header_icon i:hover {
 
 .third_section .card_div .card .card_wrapper .item_title {
     display: block;
-    clear: both;
+    /* clear: both; */
+    float: left;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -305,7 +319,7 @@ header .landing_header_icon i:hover {
 .third_section .card_div .card .card_wrapper .item_price {
     float: left;
     font-size: 20px;
-    margin-left: 0px;
+    margin-left: 160px;
     margin-top: 10px;
 }
 
