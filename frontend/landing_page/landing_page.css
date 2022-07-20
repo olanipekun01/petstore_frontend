@@ -297,7 +297,7 @@ header .landing_header_icon i:hover {
 
 .second_section .card_div .card  a:hover {
     letter-spacing: 1px;
-    color: red;
+    color: var(--black);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
