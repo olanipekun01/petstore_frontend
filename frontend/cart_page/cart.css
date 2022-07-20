@@ -100,7 +100,7 @@ header .landing_header_icon i:hover {
 
 
 .drop_down{
-    width: 90px;
+    /* width: 90px; */
     background-color: var(--black);
     color: #fff;
     left: 565px;
@@ -121,6 +121,15 @@ header .landing_header_icon i:hover {
     text-align: center;
     margin-bottom: 20px;
     font-size: 23px;
+    padding: 0px 10px;
+}
+
+.drop_down ul li a {
+    color: #fff;
+}
+
+.drop_down ul li a:hover {
+    color: red;
 }
 
 .drop_down ul li:hover {
